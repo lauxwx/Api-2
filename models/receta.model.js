@@ -25,7 +25,7 @@ const recetaSchema = new mongoose.Schema({
     type: Date,
     default: Date.now,
   },
-  imageUrl: {
+  imagenUrl: {
     type: String,
     required: false,
     default: '',
