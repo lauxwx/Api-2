@@ -25,12 +25,11 @@ const recetaSchema = new mongoose.Schema({
     type: Date,
     default: Date.now,
   },
-  ImageUrl: {
+  imageUrl: {
     type: String,
     required: false,
     default: '',
   },
-  
 });
 
 const Receta = mongoose.model("Receta", recetaSchema);
